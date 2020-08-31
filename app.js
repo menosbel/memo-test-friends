@@ -3,51 +3,51 @@ document.addEventListener('DOMContentLoaded', () => {
     const cardArray = [
         {
             name: 'clothes',
-            img: 'img/clothes.png'
+            img: 'clothes.png'
         },
         {
             name: 'airquotes',
-            img: 'img/airquotes.png'
+            img: 'airquotes.png'
         },
         {
             name: 'nap',
-            img: 'img/nap.png'
+            img: 'nap.png'
         },
         {
             name: 'myeyes',
-            img: 'img/myeyes.png'
+            img: 'myeyes.png'
         },
         {
             name: 'seven',
-            img: 'img/seven.png'
+            img: 'seven.png'
         },
         {
             name: 'unagi',
-            img: 'img/unagi.png'
+            img: 'unagi.png'
         },
         {
             name: 'clothes',
-            img: 'img/clothes.png'
+            img: 'clothes.png'
         },
         {
             name: 'airquotes',
-            img: 'img/airquotes.png'
+            img: 'airquotes.png'
         },
         {
             name: 'nap',
-            img: 'img/nap.png'
+            img: 'nap.png'
         },
         {
             name: 'myeyes',
-            img: 'img/myeyes.png'
+            img: 'myeyes.png'
         },
         {
             name: 'seven',
-            img: 'img/seven.png'
+            img: 'seven.png'
         },
         {
             name: 'unagi',
-            img: 'img/unagi.png'
+            img: 'unagi.png'
         }
     ]
 
