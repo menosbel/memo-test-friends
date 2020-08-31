@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
         cardArray.sort(() => 0.5 - Math.random())
         for (let i = 0; i < cardArray.length; i++) {
             var card = document.createElement('img')
-            card.setAttribute('src', 'img/question.png')
+            card.setAttribute('src', 'question.png')
             card.setAttribute('data-id', i)
             card.addEventListener('click', flipCard)
             grid.appendChild(card)
@@ -83,14 +83,14 @@ document.addEventListener('DOMContentLoaded', () => {
          const optionTwoId = cardsChosenId[1]
          if (cardsChosen[0] === cardsChosen[1]) {
              alert('¡Encontraste dos iguales!')
-            //  cards[optionOneId].setAttribute('src', 'img/white.png')
-            //  cards[optionTwoId].setAttribute('src', 'img/white.png')
+            //  cards[optionOneId].setAttribute('src', 'white.png')
+            //  cards[optionTwoId].setAttribute('src', 'white.png')
             cardsWon.push(cardsChosen)
             resultDisplay = document.querySelector('#'+player)
             resultDisplay.textContent = parseInt(resultDisplay.textContent) + 1
          } else {
-             cards[optionOneId].setAttribute('src', 'img/question.png')
-             cards[optionTwoId].setAttribute('src', 'img/question.png')
+             cards[optionOneId].setAttribute('src', 'question.png')
+             cards[optionTwoId].setAttribute('src', 'question.png')
              alert('Volvé a intentar')
          }
          cardsChosen = []
